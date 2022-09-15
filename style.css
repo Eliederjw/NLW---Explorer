@@ -1,0 +1,175 @@
+/* RESETING STYLES*/
+
+/* Removing browser styles */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Remove list styles (bolinhas de marcadores) */
+ul {
+    list-style: none;
+}
+/*===============================================*/
+body * {
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+}
+
+body {
+    background-image: url(./assets/bg.png);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+header {
+    padding-top: 32px;
+    height: calc(120px + 32px) /* Define header height to avoid animation 'glitch'*/
+}
+
+header div {
+    width: 120px;
+    margin: auto; /* Define top/bottom and right/left margins the same size*/
+    background-image: linear-gradient(90deg,#9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    border-radius: 50%;
+    display: flex;
+    padding: 4px;
+
+    transition: transform .3s;
+}
+
+header div:hover {
+    transform: scale(1.1);
+
+}
+
+header div img {
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
+    
+    display: flex;
+    flex-direction: column; /* Make display flex elements one under the other*/
+    /* display: grid; could be used instead of flex / colunm */
+    gap: 24px;
+
+}
+
+section {
+    color: white;
+    background-image: linear-gradient(90deg,#9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+section div {
+    background-color: #2A2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+section h2 {
+    letter-spacing: -0.47px;
+}
+
+section p {
+    letter-spacing: -0.18px;
+    color: #A1A1AA;
+}
+
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;/* gap between elements. works with display flex*/
+    margin-top: 24px;
+}
+
+section ul li {
+    transition: transform .3s;
+}
+
+section ul li:hover {
+    transform: scale(1.1);
+}
+
+.game-list img {
+    width: 90px;
+    border-radius: 8px;
+}
+
+.channel-list img {
+    border-radius: 50%;
+    width: 70%;
+    border: 1px solid #443E54;
+}
+
+/* Animation */
+
+header div {
+    animation: fromTop backwards;
+    animation-duration: .7s;
+    animation-delay: .3s;
+}
+
+main section {
+    animation: fromBottom backwards;
+    animation-duration: .3s;
+}
+
+main section:nth-child(1) {
+    animation-delay: .2s;
+}
+
+main section:nth-child(2) {
+    animation-delay: .4s;
+}
+
+main section:nth-child(3) {
+    animation-delay: .6s;
+}
+
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+/* === DEBUG === */
+
+/* Show boxes */
+/* main * {
+    border: 1px solid red;
+} */
+
+/* body * {
+    border: 1px solid red;
+} */
