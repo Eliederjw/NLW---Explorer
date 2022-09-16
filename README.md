@@ -1,4 +1,4 @@
-# NLW---Explorer
+# NLW Explorer
 
 ## Curso de uma semana da Rocketseat.
 
