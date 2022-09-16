@@ -2,4 +2,4 @@
 
 ## Curso de uma semana da Rocketseat.
 
-Link do resultado do projeto: <https://eliederjw.github.io/NLW---Explorer/>
+Link do resultado do projeto: <https://eliederjw.github.io/NLW_Explorer/>
