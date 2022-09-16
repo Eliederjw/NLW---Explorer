@@ -1,12 +1,11 @@
 # NLW Explorer
 
-### Preview do resultado do projeto
+#### Projeto construído do evento Next Level Week da Rocketseat.
 
 ![preview](./.github/preview.png)
 
 > Trilha Explorer
 
-Projeto construído do evento Next Level Week da Rocketseat.
 
 [🔗 Clique aqui para acessar o resultado do projeto](https://eliederjw.github.io/NLW_Explorer/)
 
