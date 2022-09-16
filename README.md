@@ -8,7 +8,7 @@
 
 Projeto construído do evento Next Level Week da Rocketseat.
 
-[🔗 Clique aqui para acessar](https://eliederjw.github.io/NLW_Explorer/)
+[🔗 Clique aqui para acessar o resultado do projeto](https://eliederjw.github.io/NLW_Explorer/)
 
 
 ## 🛠 Tecnologias
